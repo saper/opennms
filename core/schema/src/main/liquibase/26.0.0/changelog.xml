@@ -4,7 +4,7 @@
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
         xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-2.0.xsd" >
-    <changeSet author="pschweizer" id="26.0.0-create-timescale_meta-table">
+    <changeSet author="pschweizer" id="26.0.0-create-timeseries_meta-table">
         <createTable tableName="timeseries_meta">
             <column name="resourceid" type="text">
                 <constraints nullable="false"/>
